@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃 ?', url=f"https://t.me/cyniteofficial")
+                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃 ?', url=f"https://t.me/KGN_OFFICIAL")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -36,7 +36,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/Cynitebots'),     
+            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/KGN_BOTS'),     
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help')],[
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
@@ -74,7 +74,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/Cynitebots'),     
+            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/KGN_BOTS'),     
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help')],[
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
